@@ -22,16 +22,16 @@ public class CoinMixer {
 
         // InputReader started in separate thread
         // populates central map with application data
-	    InputReader inputReader = new InputReader(map, appLogger);
-	    Thread t = new Thread(inputReader);
-	    t.start();
+        InputReader inputReader = new InputReader(map, appLogger);
+        Thread t = new Thread(inputReader);
+        t.start();
 
-	    // Poller started
+        // Poller started
         Poller poller = new Poller(map, appLogger);
 
         //Poller to poll deposit addresses in central map every 7 seconds
-	    while (true) {
-	        appLogger.log(Level.INFO, "polling addresses in map");
+        while (true) {
+            appLogger.log(Level.INFO, "polling addresses in map");
             Set<String> depositAddressSet = map.keySet();
             synchronized(map){
                 Iterator<String> i = depositAddressSet.iterator();
