@@ -1,4 +1,4 @@
-## Coin Mixer Challenge
+### Coin Mixer Challenge
 
 Despite some media reports, Bitcoin is not an anonymous protocol.  Instead,
 it's often referred to as a pseudonymous system.  All transactions to or from
@@ -54,9 +54,10 @@ prepared to discuss what privacy vulnerabilities might exist in your mixer as
 written and how you could mitigate them.
 
 
-***** TO RUN EXECUTABLE *****
+###### To Run Executable Jar
+```shell
 java -jar coinmixer.jar
+```
 
 The jar was compiled with Java 10 on Linux.
-
 Main Class: CoinMixer.java 
