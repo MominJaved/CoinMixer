@@ -38,7 +38,7 @@ create Jobcoins out of thin air, or send them between any two addresses.
 
 
 You can access the Jobcoin interface and APIs at
-https://jobcoin.gemini.com/exemption/api
+https://jobcoin.gemini.com/exemption/api.
 
 
 Please create a Jobcoin mixer, analogous to the Bitcoin mixer described above.
