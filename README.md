@@ -9,7 +9,7 @@ your anonymity by using a bunch of addresses instead of just one.
 
 
 A Bitcoin mixer is one way to maintain your privacy on the Bitcoin network.
-Here’s how one popular mixer (https://bitmixer.io/how.html) works:
+Here’s how it works:
 1. You provide to the mixer a list of new, unused addresses that you own.
 2. The mixer provides you with a new deposit address that it owns.
 3. You transfer your bitcoins to that address.
@@ -38,7 +38,7 @@ create Jobcoins out of thin air, or send them between any two addresses.
 
 
 You can access the Jobcoin interface and APIs at
-http://jobcoin.projecticeland.net/nymphaeaceous
+https://jobcoin.gemini.com/exemption/api
 
 
 Please create a Jobcoin mixer, analogous to the Bitcoin mixer described above.
