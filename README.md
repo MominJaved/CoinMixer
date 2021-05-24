@@ -54,7 +54,7 @@ prepared to discuss what privacy vulnerabilities might exist in your mixer as
 written and how you could mitigate them.
 
 
-###### To Run Executable Jar
+#### To Run Executable Jar
 ```shell
 java -jar coinmixer.jar
 ```
